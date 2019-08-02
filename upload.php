@@ -250,10 +250,10 @@ URL Image:
         <h1 id="responseTextArea" class="UIInput"
                   style="width:580px;"></h1>
     </div>
-    <div id="imageDiv" style="width:420px; display:table-cell;">
+    <div id="imageDiv" style="width:420px; display:table-cell;margin-bottom:30px;">
         <h2>Sumber Gambar:</h2>
         <br><br>
-        <img id="sourceImage" width="400" style="margin-bottom:30px;"/>
+        <img id="sourceImage" width="400" style=""/>
     </div>
 </div>
 </body>
