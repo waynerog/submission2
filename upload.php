@@ -246,7 +246,7 @@ URL Image:
 <br><br>
 <div id="wrapper" style="width:1020px; display:table;">
     <div id="jsonOutput" style="width:600px; display:table-cell;">
-        
+        <br><br>
         <h1 id="responseTextArea" class="UIInput"
                   style="width:580px; margin-top:50%;"></h1>
     </div>
