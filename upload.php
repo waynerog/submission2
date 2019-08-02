@@ -143,7 +143,7 @@ else
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-UMpQFQdby6sZ3T16Qz0uq+QsAA7AhfgfMhkZdFOjY8D5kfgRaU2RKE6wHNEo7062" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
     <style>
         body {
             background-color:  #2590eb;
@@ -221,7 +221,7 @@ else
             // Show formatted JSON on webpage.
             dataRespon = JSON.stringify(data, null, 2);
             jsonOut = JSON.parse(dataRespon);
-            document.getElementById("responseTextArea").innerHTML = JSON.stringify(jsonOut['description']['tags'][0]);   
+            document.getElementById("responseTextArea").innerHTML = JSON.stringify(jsonOut['description']['captions'][0]['text']);   
             document.getElementById("responGb").innerHTML = "Gambar ini memiliki keterkaitan dengan : ";   
         })
  
@@ -246,10 +246,9 @@ URL Image:
 <br><br>
 <div id="wrapper" style="width:1020px; display:table;">
     <div id="jsonOutput" style="width:600px; display:table-cell;">
-        <h2 id="responGb"></h2>
         <br><br>
         <h1 id="responseTextArea" class="UIInput"
-                  style="width:580px; height:400px;"></h1>
+                  style="width:580px; margin-top:50%;"></h1>
     </div>
     <div id="imageDiv" style="width:420px; display:table-cell;">
         <h2>Sumber Gambar:</h2>
