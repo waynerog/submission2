@@ -248,7 +248,7 @@ URL Image:
     <div id="jsonOutput" style="width:600px; display:table-cell;">
         <br><br>
         <h1 id="responseTextArea" class="UIInput"
-                  style="width:580px; margin-top:50%;"></h1>
+                  style="width:580px;"></h1>
     </div>
     <div id="imageDiv" style="width:420px; display:table-cell;">
         <h2>Sumber Gambar:</h2>
