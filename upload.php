@@ -253,7 +253,7 @@ URL Image:
     <div id="imageDiv" style="width:420px; display:table-cell;">
         <h2>Sumber Gambar:</h2>
         <br><br>
-        <img id="sourceImage" width="400" />
+        <img id="sourceImage" width="400" style="margin-bottom:30px;"/>
     </div>
 </div>
 </body>
